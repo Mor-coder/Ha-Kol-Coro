@@ -1,0 +1,53 @@
+:root {
+  --branding-color: rgb(0, 0, 204);
+}
+
+body {
+  background: rgb(230, 223, 223);
+}
+
+.logo {
+  display: flex;
+  margin: 0 auto;
+  margin-top: 30px;
+}
+
+h1 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 20px;
+  text-align: center;
+  padding: 5px;
+  padding-bottom: 0;
+  margin-bottom: 0;
+}
+
+h2 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 13px;
+  text-align: center;
+  margin-top: 0;
+}
+
+.intro-img {
+  display: flex;
+  margin: 0 auto;
+  margin-top: 15px;
+  width: 800px;
+  border-radius: 4px;
+  box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.3);
+}
+
+p {
+  text-align: center;
+  padding: 10px;
+  margin: 10px;
+}
+
+.social {
+  font-size: 30px;
+  text-align: center;
+}
+
+.social a {
+  color: var(--branding-color);
+}

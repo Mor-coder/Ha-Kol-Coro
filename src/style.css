@@ -1,5 +1,6 @@
 :root {
   --branding-color: rgb(0, 0, 204);
+  --branding-font: "Montserrat", sans-serif;
 }
 
 body {
@@ -9,7 +10,31 @@ body {
 .logo {
   display: flex;
   margin: 0 auto;
-  margin-top: 30px;
+  margin-top: 15px;
+  width: 200px;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+nav li {
+  display: inline;
+  font-size: 18px;
+  font-family: "Montserrat", sans-serif;
+  padding: 20px 10px;
+}
+
+nav a {
+  text-decoration: none;
+  color: black;
+  cursor: pointer;
+}
+
+nav a:hover {
+  color: var(--branding-color);
+  transition: all ease-in-out 0.5s;
 }
 
 h1 {

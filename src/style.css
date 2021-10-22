@@ -10,13 +10,13 @@ body {
 .logo {
   display: flex;
   margin: 0 auto;
-  margin-top: 15px;
   width: 200px;
 }
 
 nav {
   display: flex;
   justify-content: space-between;
+  margin-top: 20px;
 }
 
 nav li {
@@ -62,11 +62,31 @@ h2 {
   box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.3);
 }
 
-.container img {
+.container-img {
   display: flex;
-  margin: 0 auto;
+  justify-content: center;
+}
+
+.container img {
   border-radius: 3px;
   box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.3);
+  margin: 40px;
+  margin-bottom: 0;
+}
+
+.container-img-text {
+  display: flex;
+  justify-content: center;
+}
+
+.di-lorenzo-m {
+  padding-right: 10px;
+  margin-right: 70px;
+}
+
+.di-castro-p {
+  padding-left: 10px;
+  margin-left: 30px;
 }
 
 iframe {

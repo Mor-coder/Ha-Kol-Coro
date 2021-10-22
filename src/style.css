@@ -62,10 +62,49 @@ h2 {
   box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.3);
 }
 
+.container img {
+  display: flex;
+  margin: 0 auto;
+  border-radius: 3px;
+  box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.3);
+}
+
+iframe {
+  display: flex;
+  margin: 0 auto;
+  padding: 20px;
+  margin-bottom: 70px;
+}
+
 p {
+  font-size: 15px;
+  font-family: var(--branding-font);
   text-align: center;
-  padding: 10px;
+  padding: 5px;
   margin: 10px;
+}
+
+footer {
+  background: rgb(0, 0, 204, 0.7);
+}
+
+footer li {
+  list-style: none;
+  font-size: smaller;
+  font-family: var(--branding-color);
+}
+
+footer a {
+  color: white;
+  text-decoration: none;
+}
+
+footer p {
+  color: white;
+}
+
+footer i {
+  color: white;
 }
 
 .social {

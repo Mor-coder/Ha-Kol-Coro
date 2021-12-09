@@ -15,7 +15,7 @@
 
 nav {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-evenly;
   margin-top: 20px;
 }
 
@@ -33,7 +33,10 @@ nav a {
 }
 
 .logo {
-  width: 100px;
+  width: 120px;
+  display: block;
+  margin: 0 auto;
+  padding-top: 1em;
 }
 
 h1 {
@@ -69,14 +72,15 @@ h2 {
   width: 120px;
 }
 
-.di-lorenzo-m {
-  padding-right: 10px;
-  margin-right: 70px;
+.about-us-intro h1 {
+  text-align: center;
+  padding: 3px;
+  margin: 2em;
 }
 
-.di-castro-p {
-  padding-left: 10px;
-  margin-left: 30px;
+.about-us-intro img {
+  padding: 1em;
+  margin: 1em;
 }
 
 iframe {

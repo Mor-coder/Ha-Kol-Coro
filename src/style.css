@@ -3,14 +3,14 @@
   --branding-font: "Montserrat", sans-serif;
 }
 
-body {
-  background: rgb(230, 223, 223);
+.intro-index {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
 }
 
-.logo {
-  display: flex;
-  margin: 0 auto;
-  width: 200px;
+.intro-index li {
+  list-style: none;
 }
 
 nav {
@@ -32,51 +32,34 @@ nav a {
   cursor: pointer;
 }
 
-nav a:hover {
-  color: var(--branding-color);
-  transition: all ease-in-out 0.5s;
+.logo {
+  width: 100px;
 }
 
 h1 {
   font-family: "Montserrat", sans-serif;
   font-size: 20px;
-  text-align: center;
-  padding: 5px;
-  padding-bottom: 0;
-  margin-bottom: 0;
 }
 
 h2 {
   font-family: "Montserrat", sans-serif;
   font-size: 13px;
-  text-align: center;
-  margin-top: 0;
+}
+
+.index-text {
+  text-align: start;
+  margin: 30px 20px 50px 20px;
 }
 
 .intro-img {
-  display: flex;
+  display: block;
   margin: 0 auto;
-  margin-top: 15px;
-  width: 800px;
-  border-radius: 4px;
-  box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.3);
+  width: 100%;
+  padding-top: 5px;
 }
 
-.container-img {
-  display: flex;
-  justify-content: center;
-}
-
-.container img {
-  border-radius: 3px;
-  box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.3);
-  margin: 40px;
-  margin-bottom: 0;
-}
-
-.container-img-text {
-  display: flex;
-  justify-content: center;
+.contact {
+  margin-top: 6em;
 }
 
 .di-lorenzo-m {

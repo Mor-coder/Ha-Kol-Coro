@@ -3,40 +3,34 @@
   --branding-font: "Montserrat", sans-serif;
 }
 
-.intro-index {
+.background {
+  background-image: url(/src/img/Coro-Ha-Kol_2018.jpg);
+  width: 100%;
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.navbar {
   display: flex;
-  justify-content: space-between;
-  list-style: none;
+  justify-content: space-around;
 }
 
-.intro-index li {
-  list-style: none;
-}
-
-nav {
-  display: flex;
-  justify-content: space-evenly;
-  margin-top: 20px;
-}
-
-nav li {
+.navbar li {
   display: inline;
-  font-size: 18px;
-  font-family: "Montserrat", sans-serif;
-  padding: 20px 10px;
-}
-
-nav a {
-  text-decoration: none;
-  color: black;
-  cursor: pointer;
+  padding: 5px;
 }
 
 .logo {
-  width: 120px;
+  width: 140px;
   display: block;
   margin: 0 auto;
-  padding-top: 1em;
+  padding-top: 1.7em;
+}
+
+.logo-navbar {
+  width: 100px;
 }
 
 h1 {
@@ -54,33 +48,56 @@ h2 {
   margin: 30px 20px 50px 20px;
 }
 
-.intro-img {
-  display: block;
-  margin: 0 auto;
-  width: 100%;
-  padding-top: 5px;
-}
-
 .contact {
+  text-align: start;
   margin-top: 6em;
 }
 
 .contact img {
-  display: block;
+  display: flex;
   margin: 0 auto;
-  padding: 3px;
   width: 120px;
+}
+
+.background-intro {
+  background-image: url(/src/img/ose_shalom.jpeg);
+  background-size: cover;
+  height: 50vh;
 }
 
 .about-us-intro h1 {
   text-align: center;
-  padding: 3px;
-  margin: 2em;
+  padding: 5px;
+  margin-bottom: 2em;
+  margin-top: 1em;
+  font-weight: 320;
+  font-family: "Montserrat", sans-serif;
 }
 
-.about-us-intro img {
-  padding: 1em;
-  margin: 1em;
+.about-us-intro h2 {
+  text-align: center;
+  padding: 5px;
+  margin-bottom: 1em;
+  margin-top: 3em;
+  font-weight: 320;
+}
+
+.img-intro {
+  display: block;
+  margin: 0 auto;
+  width: 50%;
+  border-radius: 2px;
+  box-shadow: 0.5em 3px 0.4em rgba(0, 0, 0, 0.3);
+  margin-top: 2em;
+}
+
+.img-intro-ric {
+  display: block;
+  margin: 0 auto;
+  width: 50%;
+  border-radius: 2px;
+  box-shadow: 0.5em 3px 0.4em rgba(0, 0, 0, 0.3);
+  margin-top: 5.5em;
 }
 
 iframe {
